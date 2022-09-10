@@ -1,0 +1,137 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Farzaneh}{Koohestani}
+\title{Master Student|Junior Researcher}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+98~(913)~554~7596}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{farzanehkoohestani1999@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{farkoo.github.io}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{farzanehkoohestani}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github]{farkoo}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Fast learner, hard worker and team player}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+
+\cventry{2018}{Ranked $6^{th}$ among all graduated Computer Engineering students in BSc.}{\textit{Grade: 18.64/20}}{\hfill \break Directly admitted to MSc. for outstanding BSc. student}{\hfill \break Membership in Brilliant Talents Foundation and Exceptional students}{} 
+
+\cventry{2018--2022}{Bachelor's degree}{Isfahan University of Technology}{Isfahan}{\textit{GPA: 3.9/4}}{BSc. Project: Investigating a method based on Meta-Learning to recommend an appropriate algorithm in the classification problem}  % arguments 3 to 6 can be left empty
+\cvitem{supervisors}{\textit{Dr. Nader karimi and Dr. Shadrokh Samavi}}
+
+\cventry{2018}{Ranked 443 among more than 150,000 participants in the National University's Entrance Exam "Konkur" (Mathematics and Physics)}{}{}{}{}  
+\cventry{2014--2018}{high School Diploma}{Haj Rasool Abdar2}{Isfahan}{Mathematics and Physics}{\textit{Grade: 19.97/20}}  % arguments 3 to 6 can be left empty
+
+\cventry{2011--2014}{Middle School Diploma}{Farzaneh}{Isfahan}{}{\textit{Grade: 20/20}}  % arguments 3 to 6 can be left empty
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Academic Experience}
+\subsection{Teacher Assistance}
+
+\cventry{2020--2022}{Digital System Design I}{Dr. Nader Karimi}{Isfahan University of Technology}{}{
+Semesters:%
+\begin{itemize}%
+\item Feb 2022 - Jul 2022
+\item Sep 2021 - Feb 2022
+\item Sep 2020 - Feb 2021
+\item Feb 2020 - Jul 2020
+\end{itemize}}
+
+\cventry{Feb 2022--Jul 2022}{Computational Intelligence}{Dr. Mehran Safayani}{Isfahan University of Technology}{}{}
+
+\cventry{Feb 2022--Jul 2022}{FPGA}{Dr. Amir Khorsandi}{Isfahan University of Technology}{}{}
+
+\cventry{Sep 2021--Feb 2021}{Microprocessor}{Dr. Farzaneh Shayegh}{Isfahan University of Technology}{}{}
+
+\cventry{2020--2021}{Advanced Programming (C\#)}{Dr. Mohammadali Khosravifar}{Isfahan University of Technology}{}{
+Semesters:%
+\begin{itemize}%
+\item Feb 2021 - Jul 2021
+\item Sep 2020 - Feb 2021
+\end{itemize}}
+
+\cventry{2019--2021}{Fundamental Programming}{Dr. Elham Mahmoudzadeh and Dr. Samaneh Hosseini}{Isfahan University of Technology}{}{
+Semesters:%
+\begin{itemize}%
+\item Sep 2020 - Feb 2021
+\item Sep 2019 - Feb 2020
+\end{itemize}}
+
+
+\section{Languages}
+\cvitemwithcomment{Persian}{Mother tongue}{}
+\cvitemwithcomment{English}{Advanced}{}
+\cvitemwithcomment{German}{Pre-Intermediate}{}
+
+\section{Computer skills}
+\cventry{}{Programming language:}{}{}{}{Python, C/C++/C\#, Matlab, Verilog, Java, PHP}
+\cventry{}{AI related library:}{}{}{}{TensorFlow, Keras, Pytorch, Scikit-Learn, Numpy, Pandas, Matpltlib, Seaborn, Scipy}
+\cventry{}{Image processing library:}{}{}{}{OpenCV, PIL}
+\cventry{}{Operating system:}{}{}{}{Linux(Ubuntu, CentOS, Arch, Manjaro), Windows}
+
+\section{Projects}
+\cventry{}{}{}{}{}{Implementation and construction of an avoiding obstacle robot using Python and Webots \href{https://github.com/farkoo/Obstacle-Avoiding-Robot}{\textcolor{blue}{(code)}}}
+
+\cventry{}{}{}{}{}{ElderAid smart health bracelet to check the health status of the elderly and predict critical situations\href{https://github.com/farkoo/ElderAid-bracelet}{\textcolor{blue}{(code)}}}
+
+\cventry{}{}{}{}{}{Investigating the citation network of articles using Graph neural network\href{https://github.com/farkoo/GNN-Citations}{\textcolor{blue}{(code)}}}
+
+\cventry{}{}{}{}{}{Prediction and diagnosis of Parkinson's disease using audio signals\href{https://github.com/farkoo/Parkinsons-Diagnosis-ML}{\textcolor{blue}{(code)}}} 
+
+\cventry{}{}{}{}{}{Presenting a new method for seam carving using Energy map, Depth map and Edge map \href{https://github.com/farkoo/Novel-Seam-Carving-Method}{\textcolor{blue}{(code)}}}
+
+\cventry{}{}{}{}{}{Diagnosis of covid-19 from chest x-ray images\href{https://github.com/farkoo/Covid19-Detection-from-ChestXRayImages}{\textcolor{blue}{(code)}}}
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
